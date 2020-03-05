@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    <title>Demo Support Page</title>
+<html>
     <head>
-        <!--Linkage of JavaScript Files-->
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,26 +17,30 @@
         <script src="./rainbow-sdk.min.js"></script>
     </head>
     <body class="ms-Fabric" dir="ltr">
-        <div class="ms-Grid" dir="ltr">
-            <!--Adaptation of mobile and laptops-->
-            <!--We use small 6 small 6 for mobile-->
-            <!--We use medium 4 medium 8 for ipad-->
-            <!--we use large 4 large 8 for laptop-->
-            <div class="ms-Grid-row" dir="ltr">
+        <div class="ms-Grid-row" style="background-color: #005a9e;">
+            <!--Title of support-->
+            <div class="ms-fontSize-20" style="color: aliceblue;height: 50px;text-align: center;margin-top: 20px;">
+                WELCOME TO SUPPORT
+            </div>
+        </div>
 
-                <!--Main chat area-->
-                <div id="smartAgent" class="ms-Grid-col ms-sm6 ms-md4 ms-lg4" style="top: 0px; left: 0px; bottom: 0px;display: block;">
-                    <!--Preserved for chatbot and chat window-->
-                    <iframe id="smartAgentIFrame" src="./chatWindow.html">
-
-                    </iframe>
-                <!--Main instructions area-->
-                <div id="smartInstructions" class="ms-Grid-col ms-sm6 ms-md8 ms-md8">
-                    <!--Preserved for instructions-->
-                </div>
+        <!--Main body of chat bot-->
+        <div id="mainDisplay" class="ms-Grid-row" style="background-color: #deecf9;height: ;">
+            <!--Preserved for main body of chat-->
+            <div>
 
             </div>
         </div>
+
+        <!--Content input-->
+        <div id="userInput" class="ms-Grid-row" style="background-color: #71afe5;">
+            <!--This part takes in user inputs-->
+            <div>
+
+            </div>
+        </div>
+
+    </div>
+
     </body>
-    <script></script>
 </html>
