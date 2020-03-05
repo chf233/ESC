@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -16,24 +17,27 @@
         <script src="./vendors-sdk.min.js"></script>
         <script src="./rainbow-sdk.min.js"></script>
     </head>
-    <body class="ms-Fabric" dir="ltr">
-        <div class="ms-Grid-row" style="background-color: #005a9e;">
+    <body class="ms-Fabric" dir="ltr" style="padding: 0px; margin: 0px; top: 0px; left: 0px; right: 0px; bottom: 0px; position: fixed">
+        <div class="ms-Grid-row" style="background-color: #005a9e; height: 10vh">
             <!--Title of support-->
-            <div class="ms-fontSize-20" style="color: aliceblue;height: 50px;text-align: center;margin-top: 20px;">
+            <div class="ms-fontSize-20" style="color: aliceblue; height: 100%; text-align: center;margin-top: 3vh;">
                 WELCOME TO SUPPORT
             </div>
         </div>
 
         <!--Main body of chat bot-->
-        <div id="mainDisplay" class="ms-Grid-row" style="background-color: #deecf9;height: ;">
+        <div id="mainDisplay" class="ms-Grid-row" style="background-color: #deecf9; height: 65vh">
             <!--Preserved for main body of chat-->
-            <div>
-
+            <div style="margin-left: 3vh; right: 10vh" dir="ltr">
+                This is a message from the bot
+            </div>
+            <div style="margin-left: 10vh; margin-right: 3vh;" dir="rtl">
+                This is a message from me
             </div>
         </div>
 
         <!--Content input-->
-        <div id="userInput" class="ms-Grid-row" style="background-color: #71afe5;">
+        <div id="userInputPanel" class="ms-Grid-row" style="background-color: #71afe5; height: 25vh">
             <!--This part takes in user inputs-->
             <div>
 

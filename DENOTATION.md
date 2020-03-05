@@ -3,7 +3,8 @@ This file includes some frequently used ids and APIs the website used
 ## Important Dynamic Components
 1. Chat Area
   1. Root div id: smartAgent
-    1. content div id: mainDisplay
+    1. iframe content div id: mainDisplay
+    2. iframe user input div id: userInputPanel
 2. Instruction Area
   1. Root div id: smartInstructions
 ## APIs to use
